@@ -12,7 +12,7 @@ export class HeroesComponent implements OnInit {
   constructor() { }
 
   heroes = HEROES;
-  selectedHero?: Hero;
+  selectedHero!: Hero;
   
 
   ngOnInit(): void {
